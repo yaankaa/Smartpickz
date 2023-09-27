@@ -1,0 +1,24 @@
+form input[type="submit"]{
+    width: 80px;
+    background-color: rgb(236, 254, 117);
+    color: black;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 15px;
+}
+textarea{
+   
+        width: 700px;
+        max-width: 700px;
+    color: black;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 15px;
+    font-size: 15px;
+   
+    
+}

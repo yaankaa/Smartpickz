@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap');
+body {
+
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+
+
+/* Side panel styles */
+
+.side {
+    line-height: 5rem;
+    position: absolute;
+    left: 75%;
+    margin-left: 5%;
+    float: left;
+    max-width: 30%;
+    margin-top: 9%;
+
+}
+
+
+
+.cat_name li {
+    font-size: large;
+    color: var(--black-1);
+    line-height: 5rem;
+}
+
+.side h2 {
+    font-size: 30px;
+    color: var(--black-1);
+}
+
+.side .cat_name a {
+    color: black;
+}
+
+.cat_name ul {
+    list-style: none;
+    padding: 0;
+}
+
+.cat_name li {
+    margin-bottom: 10px;
+}
+
+.cat_name a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    display: block;
+    padding: 5px;
+    border-left: 5px solid transparent;
+}
+
+.cat_name a.active {
+    border-left-color: #e4e0de;
+}
+
+/* Products section styles */
+.products {
+    width: 75%;
+    float: left;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.box-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.box {
+   
+   
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    width: calc(33.33% - 20px); /* Adjust as needed */
+}
+
+.box img {
+    max-width: 100%;
+    height: auto;
+}
+
+.name {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #333;
+}
+
+
+
+a {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 15px;
+    color: var(--black-1);
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+
+
+.empty {
+    text-align: center;
+    font-size: 18px;
+    color: #777;
+    margin-top: 20px;
+}
+div.stars {
+
+    width: 270px;
+ 
+    display: inline-block;
+ 
+ }
+ 
+ .mt-200 {
+    margin-top: 200px;
+ }
+ 
+ input.star {
+    display: none;
+ }
+ 
+ 
+ 
+ label.star {
+ 
+    float: right;
+ 
+    padding: 10px;
+    margin-left: 0.9em;
+ 
+    font-size: 15px;
+ 
+    color: #4A148C;
+ 
+    transition: all .2s;
+ 
+ }
+ 
+ 
+ 
+ input.star:checked~label.star:before {
+ 
+    content: '\f005';
+ 
+    color: #FD4;
+ 
+    transition: all .25s;
+ 
+ }
+ 
+ 
+ input.star-5:checked~label.star:before {
+ 
+    color: #FE7;
+ 
+    text-shadow: 0 0 20px #952;
+ 
+ }
+ 
+ 
+ 
+ input.star-1:checked~label.star:before {
+    color: #F62;
+ }
+ 
+ 
+ 
+ label.star:hover {
+    transform: rotate(-15deg) scale(1.3);
+ }
+ 
+ 
+ 
+ label.star:before {
+ 
+    content: '\f006';
+ 
+    font-family: FontAwesome;
+ 
+ }

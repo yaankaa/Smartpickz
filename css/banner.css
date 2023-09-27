@@ -1,0 +1,111 @@
+/* banner */
+.banner{
+    height: 40vh;
+    background: url('../img/slider1.PNG') no-repeat center center/cover;
+    color: var(--green-2);
+    
+    
+}
+
+.container2{
+    width: 30%;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+.search-box{
+    width: 500px;
+    position: absolute;
+    display: flex; 
+    
+}
+.search{
+    width: 90%;
+    border: 3px solid #4f524f;
+    border-right: none;
+    
+    padding: 5px;
+    height: 40px;
+    outline: none;
+    color: black;
+    box-shadow: 0.25rem  0.25rem 0.25rem #4f524f;
+    font-size: 20px;
+}
+.search-btn{
+    width: 50px;
+    height: 56px;
+    border: 1px solid #4f524f;
+    background-color: #4f524f;
+    text-align: center;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+
+}
+
+
+::placeholder{
+    font-size: large;
+}
+.text{
+    color: var(--white-1);
+    padding-top: 80px;
+    padding-left: 50px;
+    font-size: 40px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 768px){
+    .container2{
+        width: 30%;
+        position: absolute;
+        top: 60%;
+        left: 30%;
+        transform: translate(-50%, -50%);
+        
+    }
+    .search-box{
+        width: 500px;
+        position: absolute;
+        display: flex; 
+        
+    }
+    .search{
+        width: 70%;
+        border: 3px solid #72ac70;
+        border-right: none;
+        
+        padding: 5px;
+        height: 40px;
+        outline: none;
+        color: black;
+        box-shadow: 0.25rem  0.25rem 0.25rem #4f524f;
+        font-size: 15px;
+    }
+    .search-btn{
+        width: 50px;
+        height: 56px;
+        border: 1px solid #4f524f;
+        background-color: #4f524f;
+        text-align: center;
+        border-radius: 0 5px 5px 0;
+        cursor: pointer;
+        font-size: 20px;
+    
+    }
+    
+    
+    ::-ms-input-placeholder{
+        font-size: medium;
+        color: var(--black-4);
+    }
+    .text{
+        color: var(--black-4);
+        padding-top: 80px;
+        padding-left: 50px;
+        font-size: 35px;
+        text-align: center;
+    }
+}

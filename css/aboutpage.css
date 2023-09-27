@@ -1,0 +1,132 @@
+/*our story*/
+.ourStory__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.ourStory__title,
+.ourGoals__title {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: var(--black1);
+    margin-bottom: 1rem;
+}
+
+.ourStory__subtitle {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: var(--black1);
+    margin-bottom: 2rem;
+}
+
+.ourStory__text,
+.ourGoals__text {
+    color: var(--black1);
+}
+
+@media only screen and (min-width: 768px) {
+    .ourStory__wrapper {
+        flex-direction: row;
+        gap: 3rem;
+    }
+
+    .ourStory__img,
+    .ourStory__info {
+        flex: 1;
+    }
+
+    .ourStory__title,
+    .ourGoals__title {
+        font-size: 3.6rem;
+    }
+
+    .ourStory__subtitle {
+        font-size: 1.8rem;
+    }
+
+    .ourStory__text,
+    .ourGoals__text {
+        font-size: 1.8rem;
+        max-width: 800px;
+    }
+}
+
+
+/* why  us section */
+.whyUs__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.whyUs__left {
+    text-align: center;
+}
+
+.whyUs__title {
+    font-family: Poppins;
+    font-size: 1.8rem;
+    color: var(--black1);
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.whyUs__text {
+    font-size: 1.6rem;
+}
+
+.whyUs__items__wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+}
+
+.whyUs__item {
+    background-color: var(--lightGreen-1);
+    padding: 2rem;
+    border-radius: 12px;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+}
+
+@media only screen and (min-width: 768px) {
+    .whyUs__wrapper {
+        margin: 0 auto;
+        flex-direction: row;
+        max-width: 900px;
+    }
+
+    .whyUs__left {
+        flex: 4;
+        text-align: left;
+    }
+
+    .whyUs__right {
+        flex: 3;
+    }
+
+    .whyUs__title {
+
+        font-size: 3.6rem;
+        margin-bottom: 2rem;
+    }
+
+    .whyUs__text {
+        font-size: 1.8rem;
+        line-height: 2rem;
+    }
+
+    .whyUs__items__wrapper {
+        gap: 1.5rem;
+    }
+
+    .whyUs__item {
+        padding: 2rem;
+        max-width: 500px;
+        margin-bottom: 1.5rem;
+    }
+}

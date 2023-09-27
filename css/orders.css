@@ -1,0 +1,40 @@
+h2 {
+    text-align: center;
+}
+
+.placed-orders .title {
+    text-align: center;
+    font-size: 24px;
+
+}
+
+
+.box {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    background-color: #f9f9f9;
+
+}
+
+
+.box span {
+    font-weight: bold;
+}
+
+
+.box span[style*="color: red"] {
+    color: red;
+}
+
+.box span[style*="color: green"] {
+    color: green;
+}
+
+
+
+.box-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

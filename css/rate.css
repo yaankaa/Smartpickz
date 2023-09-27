@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap');
+
+div.stars {
+
+    width: 270px;
+
+    display: inline-block;
+
+}
+
+.mt-200 {
+    margin-top: 200px;
+}
+
+input.star {
+    display: none;
+}
+
+
+
+label.star {
+
+    float: right;
+
+    padding: 10px;
+    margin-left: 0.9em;
+
+    font-size: 15px;
+
+    color: #4A148C;
+
+    transition: all .2s;
+
+}
+
+
+
+input.star:checked~label.star:before {
+
+    content: '\f005';
+
+    color: #FD4;
+
+    transition: all .25s;
+
+}
+
+
+input.star-5:checked~label.star:before {
+
+    color: #FE7;
+
+    text-shadow: 0 0 20px #952;
+
+}
+
+
+
+input.star-1:checked~label.star:before {
+    color: #F62;
+}
+
+
+
+label.star:hover {
+    transform: rotate(-15deg) scale(1.3);
+}
+
+
+
+label.star:before {
+
+    content: '\f006';
+
+    font-family: FontAwesome;
+
+}
+
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: var(--lightGreen-2);
+    color: #333;
+
+
+
+
+
+}
+
+.main {
+    margin: 150px;
+    padding:0;
+
+
+}
+
+
+.main-content {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: var(--lightGreen-1);
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.box-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.box {
+    background-color: var(--lightGreen-1);
+    box-shadow: 0px 5px 5px #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    width: calc(33.33% - 20px);
+    /* Adjust as needed */
+}
+
+.box img {
+    max-width: 100%;
+    height: auto;
+}
+
+.name {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #333;
+}
+
+
+
+.btn {
+    display: block;
+    padding: 10px 20px;
+    background-color: var(--green-1);
+    color: #0b0b0b;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+
+
+.load-more {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.option-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--green-1);
+    color: #100f0f;
+    text-decoration: none;
+    font-size: medium;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
