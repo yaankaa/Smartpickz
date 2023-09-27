@@ -238,9 +238,7 @@
             </div>
             
         </div>
-        <div>
-            <h2>herllo</h2>
-        </div>
+        
     <?php
         include ('includes/footer.php');
         ?> 
