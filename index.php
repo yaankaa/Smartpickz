@@ -166,6 +166,7 @@
     <div class="name">
         <?php echo isset($product['title']) ? $product['title'] : ''; ?>
     </div>
+    
     <div class="price">RS
         <?php echo isset($product['price']) ? $product['price'] : ''; ?>/-
     </div>
@@ -237,7 +238,9 @@
             </div>
             
         </div>
-        
+        <div>
+            <h2>herllo</h2>
+        </div>
     <?php
         include ('includes/footer.php');
         ?> 
